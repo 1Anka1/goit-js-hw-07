@@ -1,11 +1,11 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
-const gallerycontainer = document.querySelector(".gallery");
+const galleryContainer = document.querySelector(".gallery");
 const cardsMarkup = createGalleryCardsMarkup(galleryItems);
 
-gallerycontainer.insertAdjacentHTML("beforeend", cardsMarkup);
-gallerycontainer.addEventListener("click", onGalleryContainerClick);
+galleryContainer.insertAdjacentHTML("beforeend", cardsMarkup);
+galleryContainer.addEventListener("click", onGalleryContainerClick);
 
 function createGalleryCardsMarkup(galleryItems) {
   return galleryItems
