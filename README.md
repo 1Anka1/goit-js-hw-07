@@ -1,4 +1,4 @@
-# goit-js-hw-07
+# Homework 7
 Task 1 - image gallery. 
 Create a gallery with the ability to click on its items and view full size images in a modal window. Check out the demo video of the gallery.
 
