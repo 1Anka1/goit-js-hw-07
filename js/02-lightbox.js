@@ -6,7 +6,6 @@ galleryList.insertAdjacentHTML(
   "beforeend",
   createGalleryCardsMarkup(galleryItems)
 );
-galleryList.addEventListener(`click`, GalleryItemClick);
 
 function createGalleryCardsMarkup(galleryItems) {
   return galleryItems
@@ -18,18 +17,6 @@ function createGalleryCardsMarkup(galleryItems) {
     })
     .join("");
 }
-function GalleryItemClick(event) {
-  event.preventDefault();
-}
-
-const galleryListItemA = document.querySelector(".gallery a");
-galleryListItemA.addEventListener(`click`, elementCaptionOptions);
-
-function elementCaptionOptions() {
-  let captionOptionsElement = {};
-  return captionOptionsElement;
-}
-
 const captionOptions = {
   captionsData: "alt",
   captionDelay: 250,
